@@ -17,7 +17,7 @@ const images = [
 
 const Carouselslide = () => {
   return (
-    <div className="relative w-full max-w-[1152px] mx-auto py-10">
+    <div className="relative w-full max-w-[1440px] mx-auto py-10">
       {/* White shadow overlay */}
       <div className="pointer-events-none absolute bottom-0 left-0 right-0 h-[200px] bg-gradient-to-t from-white to-transparent z-10" />
 

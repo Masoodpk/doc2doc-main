@@ -1,11 +1,11 @@
 import React from "react";
 import Carousel from "./Carousel";
-import { ArrowRight } from "lucide-react"; // Assuming you're using lucide-react
+import { ArrowRight } from "lucide-react"; 
 
 function AutoslideCarousel() {
   return (
     <section className="bg-white py-16 px-4 max-w-[1440px] mx-auto">
-      <div className="max-w-[1152px] mx-auto text-center">
+      <div className="max-w-[1440px] mx-auto text-center">
         {/* Top Button */}
         <div className="text-[16px] mb-8">Our Treasures</div>
 
@@ -18,7 +18,7 @@ function AutoslideCarousel() {
         </h2>
 
         {/* Description */}
-        <p className="mt-4 text-[#556987] text-[16px] mx-auto">
+        <p className="mt-4 text-[#556987] max-w-[1010px] text-[16px] mx-auto">
           They once had the same questions, concerns, and dreams—and today,
           they’re studying at top medical universities across the globe. With the
           right guidance, support, and planning, you too can take the first step
