@@ -132,3 +132,7 @@
     @apply bg-background text-foreground;
   }
 }
+.embla__slide.is-selected img {
+  transform: scale(1.08);
+  transition: transform 0.5s ease-in-out;
+}
